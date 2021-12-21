@@ -222,13 +222,13 @@ a:visited {
 @media (max-width: 900px) {
   body {
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .sidebar {
-    height: 75vh;
+    height: 50vh;
   }
   #map {
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
   }
 }
